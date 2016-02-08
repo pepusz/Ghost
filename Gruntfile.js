@@ -884,7 +884,7 @@ var _              = require('lodash'),
         // `bower` does have some quirks, such as not running as root. If you have problems please try running
         // `grunt init --verbose` to see if there are any errors.
         grunt.registerTask('init', 'Prepare the project for development',
-            ['shell:ember:init', 'shell:bower', 'update_submodules', 'assets', 'default']);
+            ['shell:ember:init', 'shell:bower', 'assets', 'default']); //, 'update_submodules'
 
         // ### Basic Asset Building
         // Builds and moves necessary client assets. Prod additionally builds the ember app.
